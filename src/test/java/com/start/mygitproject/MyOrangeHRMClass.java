@@ -46,6 +46,9 @@ public class MyOrangeHRMClass {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+		String actualUrl=driver.getCurrentUrl();
+		String expectedUrl="https://opensource-demo.orangehrmlive.com/";
+		Assert.assertEquals(actualUrl, expectedUrl);
 	}
   @Test
   public void f() {
