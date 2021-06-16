@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application Log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 15 08:20:51 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Starting execution...</td>
+</tr>
+
+<tr>
+<td>3675</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">opening browser...IE</td>
+</tr>
+
+<tr>
+<td>7118</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">opening ORANGE HRM site....in browser</td>
+</tr>
+
+<tr>
+<td>7143</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">maximising the browser</td>
+</tr>
+
+<tr>
+<td>8502</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Entered username as Admin</td>
+</tr>
+
+<tr>
+<td>9214</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Entered password as Admin123</td>
+</tr>
+
+<tr>
+<td>14326</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Clicking on login button</td>
+</tr>
+
+<tr>
+<td>14375</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Something didnot work while logging in with the credentails </td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">java.lang.AssertionError: expected [https://opensource-demo.orangehrmlive.com/index.php/dashboard] but found [https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.fail(Assert.java:94)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.failNotEquals(Assert.java:513)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.assertEquals(Assert.java:116)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.assertEquals(Assert.java:190)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.Assert.assertEquals(Assert.java:200)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.start.mygitproject.LogClass.t(LogClass.java:56)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:483)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:632)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1064)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application Log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 15 08:23:42 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Starting execution...</td>
+</tr>
+
+<tr>
+<td>4319</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">opening browser...IE</td>
+</tr>
+
+<tr>
+<td>7323</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">opening ORANGE HRM site....in browser</td>
+</tr>
+
+<tr>
+<td>7349</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">maximising the browser</td>
+</tr>
+
+<tr>
+<td>8182</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Entered username as Admin</td>
+</tr>
+
+<tr>
+<td>8815</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Entered password as Admin123</td>
+</tr>
+
+<tr>
+<td>11432</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">Clicking on login button</td>
+</tr>
+
+<tr>
+<td>11475</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.start.mygitproject.LogClass category">com.start.mygitproject.LogClass</td>
+<td title="Message">We have successfull logged in....</td>
+</tr>

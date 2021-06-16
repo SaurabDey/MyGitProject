@@ -7,11 +7,4 @@
       <class name="com.start.mygitproject.MyOrangeHRMClass"/>
     </classes>
   </test> <!-- Test -->
-  
-  <test name="TestIE">
-      <parameter name="myBrowser" value="ie"/>
-    <classes>
-      <class name="com.start.mygitproject.MyOrangeHRMClass"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
